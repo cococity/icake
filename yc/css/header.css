@@ -1,0 +1,143 @@
+.my_main_color{
+    color:#f2473d;
+}
+
+.index-header{
+    width:1200px;
+    height:100px;
+    margin: auto;
+}
+/*<!-- 有宠logo-->*/
+.yc_logo{
+    float: left;
+    margin-top: 20px;
+}
+/*<!-- 有宠logo---专注于高品质宠物综合服务-->*/
+.yc_details{
+    float: left;
+}
+/*调整图片位置*/
+.logo_img{
+    margin-top: 65px;
+    margin-left: 20px;
+}
+/*<!-- 搜索栏包括提示字-->*/
+.index_search{
+    float: right;
+    margin:22px 0 10px;
+}
+/*<!-- 整行搜索框-->*/
+.search_box{
+  height:38px;
+    margin-bottom: 5px;
+}
+/*<!-- 搜索框-->*/
+.input_value{
+    width:405px;
+    height:36px;
+    line-height: 36px;
+    float: left;
+    padding: 0 10px;
+    background: #fff;
+    border:1px solid #e1e1e1;
+    font-size:14px;
+    color:#666;
+    outline: 0;
+}
+.input_value:focus{
+    border:1px solid #f2473d;
+}
+
+/*<!-- 搜索提交按钮-->*/
+.input_submit{
+    width:48px;height:38px;
+    border:none;
+    font-size: 17px;
+    line-height: 38px;
+    cursor: pointer;
+    background:#f2473d url(../img/index/search-btn.png) center no-repeat;
+    outline:0;
+}
+.input_submit:hover{
+    background:#d71a0f  url(../img/index/search-btn.png) center no-repeat;
+}
+/*<!-- 搜索提示字-->*/
+.search_word{
+    width:400px;
+    height:20px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding: 0;
+    margin: 0;
+}
+/*热搜*/
+.top_search{
+    margin-right: 10px;
+    font-size: 13px;
+    color: #000;
+}
+/*提示字*/
+.my_font{
+    margin-right: 10px;
+    font-size: 13px;
+    color: #000;
+    text-decoration: none;
+}
+.my_font:hover{
+    color: #f2473d;
+    text-decoration: none;
+}
+/*清除浮动影响*/
+.index-header:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+/*<!-- 导航栏-->*/
+.index_nav{
+    width:100%;
+    background-color:#f2473d ;
+}
+/*导航栏ul标签*/
+.index_nav_ul{
+    width:1200px;
+    height:50px;
+    margin:0 auto;
+    list-style: none;
+    display: flex;
+}
+/*导航里里面的li下的a标签*/
+.index_nav_ul a{
+    display: inline-block;
+    text-decoration: none;
+    width:85px;height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color:#fff;
+    font-size: 18px;
+}
+.index_nav_ul .index_nav
+{   width:110px;
+}
+.index_nav_join{
+    font-weight: bold;
+    width:135px !important;
+}
+.index_nav_join>img{
+    position: relative;
+    top:5px;
+}
+.index_nav_img{
+    position: relative;
+}
+.index_nav_img img{
+    position: absolute;
+    left:344px;
+    bottom: 0px;
+}
+.index_nav_ul a:hover{
+    background:#d71a0f;
+    transition: 3s;
+}
